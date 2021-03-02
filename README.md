@@ -1,5 +1,5 @@
 # Tip-calculator-Using-Js-Html
-Find Output Here 👉 
+Find Output Here 👉 </br>
 INSTRUCTIONS:-
 
 ![tipcal-js](https://user-images.githubusercontent.com/69614044/109650951-f1a53380-7b83-11eb-9a9d-2a7436e4407a.PNG)
