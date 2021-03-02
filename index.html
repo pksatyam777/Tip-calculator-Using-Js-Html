@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Tip Calculator</title>
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1 class="hi" style="font-family: 'Great Vibes', cursive;color:#ea2c62;margin-left:40%;padding-top: 5%;font-size:60px;">Hello there!</h1>
+
+    <form class="" action="index.html" method="post">
+      <div class="form-bdy">
+        <div class="heading" style="border-style: solid;color:#ea2c62;">
+          <h1 style="font-family:'Ubuntu', sans-serif;color:#ea2c62;margin-left:20%;padding-top:3%;font-size:30px;">TIP CALCULATOR</h1>
+        </div><br>
+
+
+        <div class="ser">
+          <label for="fname" style="font-family:'Ubuntu', sans-serif;">Enter Your Bill Amount</label>
+        </div><br>
+        <div class="ser">
+          <input style="border-radius:5px;" size="25" type="text" name="fname" value="" id="amt">
+        </div>
+        <br>
+        <div class="ser">
+          <label for="service" style="font-family:'Ubuntu', sans-serif;">How was the service?</label>
+        </div><br>
+        <div class="ser">
+
+
+          <select class="select-o" name="service" id="opt">
+            <option value="1">Excellent - 20% </option>
+            <option value="2">Medium - 10% </option>
+            <option value="3">Not so good - 5%</option>
+
+          </select>
+
+        </div>
+        <br>
+        <div class="ser">
+          <label for="fname" style="font-family:'Ubuntu', sans-serif;">How many people are sharing the bill?</label>
+        </div><br>
+        <div class="ser">
+          <input style="border-radius:5px;" size="25" type="text" name="fname" value="" id="shr">
+        </div>
+        <div class="submit">
+          <input class="butt" type="button" name="" value="CALCULATE" onclick="calc()">
+
+        </div>
+        <div class="out">
+          <h3 id="out1"style="font-family:'Ubuntu', sans-serif;color:#ea2c62;margin-left:30%;"></h3>
+          <h3 id="out2"style="font-family:'Ubuntu', sans-serif;color:#ea2c62;margin-left:45%;"></h3>
+
+        </div>
+      </div>
+
+    </form>
+  </header>
+  <script src="script45.js"></script>
+
+
+
+
+
+</body>
+
+</html>

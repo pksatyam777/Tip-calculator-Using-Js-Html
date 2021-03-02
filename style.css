@@ -1,0 +1,69 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url("images/background.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+
+.ser {
+  margin-left: 20%;
+}
+
+select {
+  width: 200px;
+  height: 30px;
+  text-align-last: right;
+  padding-right: 29px;
+  direction: rtl;
+
+}
+option{
+  width: 200px;
+  height: 30px;
+
+
+}
+
+.butt{
+  background-color:#ea2c62;
+  font-family:'Ubuntu', sans-serif;
+  border-color:#ea2c62;
+  color:white;
+  padding: 10px 25px;
+  margin-left:30%;
+  margin-top: 5%;
+  text-decoration: none;
+  border-radius: 35px;
+
+
+
+}
+.butt:hover{
+  background-color:#e11d74;
+  font-family:'Ubuntu', sans-serif;
+  border-color:#ea2c62;
+  color:white;
+  padding: 10px 25px;
+  margin-left:30%;
+  margin-top: 5%;
+  text-decoration: none;
+  border-radius: 35px;
+  box-shadow: 1px 1px 15px 3px #ea2c62;
+
+}
+.form-bdy{
+  max-width: 400px;
+  height: 500px;
+  box-shadow: 1px 1px 15px 3px #ea2c62;;
+  margin-left: 35%;
+  margin-right: 35%;
+
+}
